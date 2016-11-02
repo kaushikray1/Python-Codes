@@ -42,17 +42,17 @@ if ser.isOpen():
         ser.write("AT+CSQ")
         print("write data: AT+CSQ")
 
-       #time.sleep(1)  #give the serial port sometime to receive the data
+        time.sleep(1)  #give the serial port sometime to receive the data
 
-       numOfLines = 0
+        numOfLines = 0
 
-       while True:
+        while True:
           response = ser.readline()
           print("read data: " + response)
 
-        numOfLines = numOfLines + 1
+          numOfLines = numOfLines + 1
 
-        if (numOfLines >= 5):
+          if (numOfLines >= 5):
             break
 
         ser.close()
