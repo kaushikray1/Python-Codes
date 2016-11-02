@@ -1,3 +1,6 @@
+# I wrote this small script to verify the robustness for ESP-Link firmware over Wifi using a LoopBack configaration (Rx tied to TX)
+
+
 import getpass
 import sys
 import telnetlib
