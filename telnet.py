@@ -12,7 +12,7 @@ import string
 
 
 val = 100
-itte = 200000000
+itte = 2000000
 PROMPT = ']'
 
 list_1 = [random.randrange(65,90) for c in range(val)]
@@ -37,5 +37,5 @@ while count<itte:
         print " ",
         print error
     
-print ("\nTotal number of errors out of 2000 are: %i"  %error)    
+print ("\nTotal number of errors out of 2000000 are: %i"  %error)    
 tn.close
